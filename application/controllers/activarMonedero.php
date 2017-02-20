@@ -7,11 +7,17 @@ class activarMonedero extends CI_Controller{
          $this->load->helper('url');
     }
     public function index() {
-     $this->load->view('activarMonedero/activarmoneda'); 
-          
+
+     $data['vista'] = $this->load->view('index',null,true);
+        $this->load->view('templates/layout',$data);
+
         }
         function paso2(){
           $this->load->view('activarMonedero/activarmonedapaso2');   
+        }
+        function prueba(){
+            $data['vista'] = null;
+            $this->load->view('templates/layout',$data);
         }
     }
 ?>

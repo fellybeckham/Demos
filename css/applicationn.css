@@ -33,12 +33,13 @@ body{
     margin-left: 131px;
 }
 .pie{
+    position: absolute;
     background-color: black;
     margin-top: -17px;
     margin-left: 34px;
     height: 58px;
     width: 951px;
-
+    bottom: 0px;
      border-radius: 21px 21px 0px 0px;
     -moz-border-radius: 21px 21px 0px 0px;
     -webkit-border-radius: 21px 21px 0px 0px;
@@ -69,4 +70,25 @@ body{
     left: 790px;
     overflow: visible;
     cursor: pointer;
+}
+.servicios{
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height:100%;
+}
+#Contenido{
+    position: absolute;
+    top: 250px;
+    left: 50%;
+    margin-left: -45%;
+    width: 90%;
+    height: 59%;
+    border: solid 1px;
+}
+.layout-header{
+    background-image: url("../img/poderjudicial1.png");
+    width: 951px;
+    height: 150px;
+
 }
