@@ -27,7 +27,7 @@ $url1= $_SERVER ['SERVER_NAME'];
 $puerto= $_SERVER ['SERVER_PORT'];
 $url_host= $url1.':'.$puerto;
 
-$config['base_url'] = 'http://'.gethostbyname($_SERVER['SERVER_NAME']).':' .$puerto.'/Demos/index.php';
+$config['base_url'] = 'http://'.gethostbyname($_SERVER['SERVER_NAME']).':' .$puerto.'/Demos';
 
 /*
 |--------------------------------------------------------------------------

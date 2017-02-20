@@ -1,6 +1,6 @@
 <html>
 <head>
-	<link href="http://127.0.0.1:8080/Demos/css/applicationn.css" rel="stylesheet" type="text/css">
+	<link href="http://127.0.0.1:8888/Demos/css/applicationn.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 <div class="Servicios">
@@ -30,7 +30,7 @@
 		
 			<img src="img/fond_transparente.png">
 				<div class ="contenedor_iconos">
-					<a href="<?php echo base_url()?>activarMonedero" onclick="window.external.reproducirAudio('1')">
+					<a href="<?php echo base_url()?>index.php/activarMonedero" onclick="window.external.reproducirAudio('1')">
 						<img src="img/logbotonesjudicial.png">
 					</a>
 					<img src="img/logbotonesjudicialSaldo.png">

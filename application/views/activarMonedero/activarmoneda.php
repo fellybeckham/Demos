@@ -1,6 +1,6 @@
 <html>
 <head>
-	<link href="http://127.0.0.1:8080/Demos/css/applicationn.css" rel="stylesheet" type="text/css">
+	<link href="http://127.0.0.1:8888/Demos/css/applicationn.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 <div class="Servicios">
@@ -42,7 +42,7 @@
 		</div>
 	</div>
 	<a href="<?php echo base_url();?>" id="regresar" class="btn-regresar"></a>
-	<a href="<?php echo base_url();?>activarMonedero/paso2" id="continuar" class="btn-continuar"></a>
+	<a href="<?php echo base_url();?>index.php/activarMonedero/paso2" id="continuar" class="btn-continuar"></a>
 	<div class="pie"></div>
 </div>
 	</body>
