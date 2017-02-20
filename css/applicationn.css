@@ -1,0 +1,72 @@
+body{
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+	height:768px;
+	width:1024px;
+	background:url('../img/fondo.png') no-repeat;
+	background-repeat:no-repeat;
+    margin: 0;
+    position: relative;
+	}
+
+.encabezado{
+    background-color: black;
+    margin-top: 17px;
+    margin-left: 34px;
+    height: 155px;
+    width: 951px;
+
+     border-radius: 21px 21px 21px 21px;
+    -moz-border-radius: 21px 21px 21px 21px;
+    -webkit-border-radius: 21px 21px 21px 21px;
+    /*border: 4px solid #c9c9c9;*/
+    box-shadow: 0 0 15 10;
+}
+.inside_Caja_Servicios{
+    margin-top: 330px;
+}
+.contenedor_iconos{
+    /*border:1px solid #808080;*/
+    /*background-color: green;*/
+    width: 758px;
+    height: 287px;
+    margin-top: -341px;
+    margin-left: 131px;
+}
+.pie{
+    background-color: black;
+    margin-top: -17px;
+    margin-left: 34px;
+    height: 58px;
+    width: 951px;
+
+     border-radius: 21px 21px 0px 0px;
+    -moz-border-radius: 21px 21px 0px 0px;
+    -webkit-border-radius: 21px 21px 0px 0px;
+    /*border: 4px solid #c9c9c9;*/
+    box-shadow: 0 0 15 10;
+}
+.Caja_Servicios{
+    /*border: 1px solid;*/
+    height: 540px;
+    margin-top: -315px;
+}
+.btn-regresar{
+    background: url('../img/regresarOn.png') no-repeat;
+    width: 175px;
+    height: 79px;
+    position: absolute;
+    top: 600px;
+    left: 40px;
+    overflow: visible;
+    cursor: pointer;
+}
+.btn-continuar{
+	  background: url('../img/continuar.png') no-repeat;
+    width: 175px;
+    height: 79px;
+    position: absolute;
+    top: 600px;
+    left: 790px;
+    overflow: visible;
+    cursor: pointer;
+}
